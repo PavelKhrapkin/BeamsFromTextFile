@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeamsFromTextFile"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="150" Width="200">
     <Grid>
-        
+        <Button Content="ReadFromFile" HorizontalAlignment="Left" Margin="30,44,0,0" VerticalAlignment="Top" Width="115" Height="49" Click="Button_Click"/>
+
     </Grid>
 </Window>
