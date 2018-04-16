@@ -63,7 +63,7 @@ namespace BeamsFromTextFile
                         ThisBeam.Class = FromFileClass;
                         ThisBeam.StartPoint = new T3D.Point(FromFileSX, FromFileSY, FromFileSZ);
                         ThisBeam.EndPoint = new T3D.Point(FromFileEX, FromFileEY, FromFileEZ);
-                        ThisBeam.Modify();
+                        ThisBeam.Insert();
                     }
                 }
                 Model.CommitChanges();
